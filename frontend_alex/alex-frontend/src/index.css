@@ -1,0 +1,29 @@
+@import 'leaflet/dist/leaflet.css';
+
+/* Tailwind directives (if you are using tailwind) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* Dark background */
+  color: white;
+}
+/* src/index.css */
+.leaflet-container {
+  background: #000 !important;
+  outline: none;
+}
+
+/* Ensure tiles are always visible inside the container */
+.leaflet-tile-pane {
+  z-index: 1;
+}
+
+.leaflet-map-pane canvas {
+  z-index: 2;
+}

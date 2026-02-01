@@ -1,0 +1,3002 @@
+{
+  "metadata": {
+    "description": "Energy consumption regression predictions by ZIP code",
+    "building_types": [
+      "Residential_1-4",
+      "Residential_Multi",
+      "Office",
+      "Store",
+      "Education",
+      "Health",
+      "Warehouse",
+      "Other_Commercial"
+    ],
+    "units": {
+      "energy": "kWh/year",
+      "floor_area": "square meters",
+      "energy_intensity": "kWh/m\u00b2/year"
+    }
+  },
+  "energy_intensities": {
+    "electricity": {
+      "Residential_1-4": 37.5572147293989,
+      "Residential_Multi": 68.56187908086878,
+      "Office": 96.50311163776584,
+      "Store": 47.43122799279834,
+      "Education": 211.50777387088544,
+      "Health": 277.92812290564484,
+      "Warehouse": 95.29698928614353,
+      "Other_Commercial": 213.53061529819868
+    },
+    "fuel": {
+      "Residential_1-4": 46.58591661912171,
+      "Residential_Multi": -149.16831306270046,
+      "Office": 139.8470957090534,
+      "Store": 273.8308360742821,
+      "Education": 1569.031455845967,
+      "Health": 14.443489652304319,
+      "Warehouse": -93.51913142188438,
+      "Other_Commercial": 120.90445305796386
+    }
+  },
+  "zip_codes": {
+    "98101": {
+      "electricity": {
+        "actual_kWh": 566169476.0,
+        "predicted_kWh": 566169476.5980929,
+        "error_kWh": 0.5980929136276245,
+        "percent_error": 1.0563849500562346e-07,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1247695.465464,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 85544345.63289104
+          },
+          "Office": {
+            "floor_area_m2": 2167052.219298,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 209127282.24378312
+          },
+          "Store": {
+            "floor_area_m2": 150281.936666,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 7128056.801204327
+          },
+          "Education": {
+            "floor_area_m2": 2123.76258,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 449192.2955260883
+          },
+          "Health": {
+            "floor_area_m2": 143166.31008999998,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 39789943.82664118
+          },
+          "Warehouse": {
+            "floor_area_m2": 21885.15971,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 2085589.83040941
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 1039874.613166,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 222045065.98231232
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 287170022.07116103,
+        "predicted_kWh": 287170021.3013207,
+        "error_kWh": -0.7698403596878052,
+        "percent_error": -2.6807824651593957e-07,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1247695.465464,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -186116627.79924572
+          },
+          "Office": {
+            "floor_area_m2": 2167052.219298,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 303055959.118684
+          },
+          "Store": {
+            "floor_area_m2": 150281.936666,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 41151828.36411309
+          },
+          "Education": {
+            "floor_area_m2": 2123.76258,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 3332250.292768587
+          },
+          "Health": {
+            "floor_area_m2": 143166.31008999998,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 2067821.1183435062
+          },
+          "Warehouse": {
+            "floor_area_m2": 21885.15971,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -2046681.127108419
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 1039874.613166,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 125725471.35369697
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 853339498.071161,
+        "predicted_kWh": 853339497.8994136
+      }
+    },
+    "98102": {
+      "electricity": {
+        "actual_kWh": 88518015.0,
+        "predicted_kWh": 75838670.72147614,
+        "error_kWh": -12679344.278523862,
+        "percent_error": -14.324026898393353,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 653933.161543,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 44834886.3486814
+          },
+          "Office": {
+            "floor_area_m2": 57871.229663,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 5584753.736783274
+          },
+          "Store": {
+            "floor_area_m2": 7564.348066,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 358786.31773532915
+          },
+          "Education": {
+            "floor_area_m2": 33697.032936,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 7127184.422347268
+          },
+          "Health": {
+            "floor_area_m2": 30838.500529,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 8570886.565249706
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 43844.64182,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 9362173.345353734
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 51011358.6,
+        "predicted_kWh": -28763498.786993068,
+        "error_kWh": -79774857.38699307,
+        "percent_error": -156.3864589699304,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 653933.161543,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -97546106.5631277
+          },
+          "Office": {
+            "floor_area_m2": 57871.229663,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 8093123.393482171
+          },
+          "Store": {
+            "floor_area_m2": 7564.348066,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 2071351.7552696588
+          },
+          "Education": {
+            "floor_area_m2": 33697.032936,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 52871704.645261586
+          },
+          "Health": {
+            "floor_area_m2": 30838.500529,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 445415.56328319275
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 43844.64182,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 5301012.438769429
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 139529373.6,
+        "predicted_kWh": 47075171.934483066
+      }
+    },
+    "98103": {
+      "electricity": {
+        "actual_kWh": 95105909.0,
+        "predicted_kWh": 109833060.16418958,
+        "error_kWh": 14727151.164189577,
+        "percent_error": 15.485001215002924,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 646373.0870149999,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 44316553.4330503
+          },
+          "Office": {
+            "floor_area_m2": 210090.8442,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 20274420.19190507
+          },
+          "Store": {
+            "floor_area_m2": 17779.404528,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 843298.9897437592
+          },
+          "Education": {
+            "floor_area_m2": 142453.465371,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 30130015.340813477
+          },
+          "Health": {
+            "floor_area_m2": 5206.377023,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 1446998.5931414694
+          },
+          "Warehouse": {
+            "floor_area_m2": 62110.579359,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 5918951.215730791
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 32327.085298,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 6902822.414479293
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 39038441.0,
+        "predicted_kWh": 159519888.1313193,
+        "error_kWh": 120481447.13131931,
+        "percent_error": 308.62258851812066,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 646373.0870149999,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -96418382.99915764
+          },
+          "Office": {
+            "floor_area_m2": 210090.8442,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 29380594.396433227
+          },
+          "Store": {
+            "floor_area_m2": 17779.404528,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 4868549.2068051165
+          },
+          "Education": {
+            "floor_area_m2": 142453.465371,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 223513968.16136318
+          },
+          "Health": {
+            "floor_area_m2": 5206.377023,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 75198.25265769547
+          },
+          "Warehouse": {
+            "floor_area_m2": 62110.579359,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -5808527.433763701
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 32327.085298,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 3908488.566912835
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 134144350.0,
+        "predicted_kWh": 269352948.29550886
+      }
+    },
+    "98104": {
+      "electricity": {
+        "actual_kWh": 431965950.0,
+        "predicted_kWh": 463421514.7040155,
+        "error_kWh": 31455564.704015493,
+        "percent_error": 7.281954678144306,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1090646.474278,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 74776771.6894241
+          },
+          "Office": {
+            "floor_area_m2": 1913719.673748,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 184679903.31909207
+          },
+          "Store": {
+            "floor_area_m2": 12181.44136,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 577780.7224270635
+          },
+          "Education": {
+            "floor_area_m2": 9475.641485,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 2004171.8364909613
+          },
+          "Health": {
+            "floor_area_m2": 270133.495682,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 75077695.38883838
+          },
+          "Warehouse": {
+            "floor_area_m2": 16037.380375,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 1528314.0657741835
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 584351.230021,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 124776877.69664337
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 196189700.144974,
+        "predicted_kWh": 196194011.7917639,
+        "error_kWh": 4311.646789908409,
+        "percent_error": 0.002197692736531187,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1090646.474278,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -162689894.7158312
+          },
+          "Office": {
+            "floor_area_m2": 1913719.673748,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 267628138.37493503
+          },
+          "Store": {
+            "floor_area_m2": 12181.44136,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 3335654.2721986403
+          },
+          "Education": {
+            "floor_area_m2": 9475.641485,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 14867579.554283991
+          },
+          "Health": {
+            "floor_area_m2": 270133.495682,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 3901670.34962376
+          },
+          "Warehouse": {
+            "floor_area_m2": 16037.380375,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -1499801.8829523744
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 584351.230021,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 70650665.85943744
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 628155650.144974,
+        "predicted_kWh": 659615526.4957794
+      }
+    },
+    "98105": {
+      "electricity": {
+        "actual_kWh": 457914269.0,
+        "predicted_kWh": 457914262.1305792,
+        "error_kWh": -6.869420826435089,
+        "percent_error": -1.5001543501661636e-06,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 880983.820005,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 60401906.13938467
+          },
+          "Office": {
+            "floor_area_m2": 116637.672634,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 11255898.343368089
+          },
+          "Store": {
+            "floor_area_m2": 75085.598145,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 3561402.124591131
+          },
+          "Education": {
+            "floor_area_m2": 1449406.459064,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 306560733.5907093
+          },
+          "Health": {
+            "floor_area_m2": 140916.663945,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 39164703.896359414
+          },
+          "Warehouse": {
+            "floor_area_m2": 6155.102459,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 586562.7330904386
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 170388.003926,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 36383055.31775068
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 2201682117.7042804,
+        "predicted_kWh": 2201682025.141496,
+        "error_kWh": -92.56278419494629,
+        "percent_error": -4.204184766303256e-06,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 880983.820005,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -131414870.2656796
+          },
+          "Office": {
+            "floor_area_m2": 116637.672634,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 16311439.768128237
+          },
+          "Store": {
+            "floor_area_m2": 75085.598145,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 20560752.117182914
+          },
+          "Education": {
+            "floor_area_m2": 1449406.459064,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 2274164326.577736
+          },
+          "Health": {
+            "floor_area_m2": 140916.663945,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 2035328.3775268528
+          },
+          "Warehouse": {
+            "floor_area_m2": 6155.102459,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -575619.8357783847
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 170388.003926,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 20600668.42231123
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 2659596386.7042804,
+        "predicted_kWh": 2659596287.272075
+      }
+    },
+    "98106": {
+      "electricity": {
+        "actual_kWh": 45405400.0,
+        "predicted_kWh": 62135733.1845471,
+        "error_kWh": 16730333.184547096,
+        "percent_error": 36.846571519130094,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 167989.527175,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 11517677.64902467
+          },
+          "Office": {
+            "floor_area_m2": 26905.080412,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 2596423.978622303
+          },
+          "Store": {
+            "floor_area_m2": 8799.121839,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 417353.15408202
+          },
+          "Education": {
+            "floor_area_m2": 123698.48644,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 26163191.49812231
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 131572.387302,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 12538452.38307102
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 41692.543825,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 8902634.536299365
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 15484024.5,
+        "predicted_kWh": 167936448.93756855,
+        "error_kWh": 152452424.43756855,
+        "percent_error": 984.5788117783495,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 167989.527175,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -25058714.380895425
+          },
+          "Office": {
+            "floor_area_m2": 26905.080412,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 3762597.355436742
+          },
+          "Store": {
+            "floor_area_m2": 8799.121839,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 2409470.8898928445
+          },
+          "Education": {
+            "floor_area_m2": 123698.48644,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 194086816.2648958
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 131572.387302,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -12304535.379586808
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 41692.543825,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 5040814.207756814
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 60889424.5,
+        "predicted_kWh": 230072182.12211564
+      }
+    },
+    "98107": {
+      "electricity": {
+        "actual_kWh": 72878622.0,
+        "predicted_kWh": 72878620.49979001,
+        "error_kWh": -1.5002099871635437,
+        "percent_error": -2.058504875632176e-06,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 504189.969374,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 34568211.71400712
+          },
+          "Office": {
+            "floor_area_m2": 65335.985713,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 6305125.923225113
+          },
+          "Store": {
+            "floor_area_m2": 52470.68537,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 2488749.040722858
+          },
+          "Education": {
+            "floor_area_m2": 19249.594503,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 4071438.8812467637
+          },
+          "Health": {
+            "floor_area_m2": 38037.739805,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 10571757.623576978
+          },
+          "Warehouse": {
+            "floor_area_m2": 73323.414041,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 6987500.602288643
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 36930.707657,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 7885836.729397107
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 35998829.7,
+        "predicted_kWh": -23343465.71800783,
+        "error_kWh": -59342295.418007836,
+        "percent_error": -164.84506833289592,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 504189.969374,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -75209167.19465418
+          },
+          "Office": {
+            "floor_area_m2": 65335.985713,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 9137047.847251257
+          },
+          "Store": {
+            "floor_area_m2": 52470.68537,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 14368091.644257702
+          },
+          "Education": {
+            "floor_area_m2": 19249.594503,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 30203219.287486613
+          },
+          "Health": {
+            "floor_area_m2": 38037.739805,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 549397.7012705615
+          },
+          "Warehouse": {
+            "floor_area_m2": 73323.414041,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -6857141.994001521
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 36930.707657,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 4465087.010313143
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 108877451.7,
+        "predicted_kWh": 49535154.78178218
+      }
+    },
+    "98108": {
+      "electricity": {
+        "actual_kWh": 95603218.0,
+        "predicted_kWh": 97384298.51582763,
+        "error_kWh": 1781080.515827626,
+        "percent_error": 1.8629922225291893,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 60526.118694,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 4149784.431132339
+          },
+          "Office": {
+            "floor_area_m2": 305669.4506,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 29498053.115506347
+          },
+          "Store": {
+            "floor_area_m2": 34246.925793,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1624373.7453402292
+          },
+          "Education": {
+            "floor_area_m2": 71211.821754,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 15061853.892478833
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 411663.969748,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 39230336.914566465
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 36621.898085,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 7819896.431477974
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 234944950.7,
+        "predicted_kWh": 120759152.22403061,
+        "error_kWh": -114185798.47596937,
+        "percent_error": -48.60108639737171,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 60526.118694,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -9028579.021816758
+          },
+          "Office": {
+            "floor_area_m2": 305669.4506,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 42746984.91339197
+          },
+          "Store": {
+            "floor_area_m2": 34246.925793,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 9377864.322871087
+          },
+          "Education": {
+            "floor_area_m2": 71211.821754,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 111733588.36012213
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 411663.969748,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -38498456.88851785
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 36621.898085,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 4427750.557911419
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 330548168.7,
+        "predicted_kWh": 218143450.73985824
+      }
+    },
+    "98109": {
+      "electricity": {
+        "actual_kWh": 509684762.0,
+        "predicted_kWh": 429261882.48310214,
+        "error_kWh": -80422879.51689786,
+        "percent_error": -15.778945244766382,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1684961.922661,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 115524155.59735164
+          },
+          "Office": {
+            "floor_area_m2": 1194330.217107,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 115256582.27383395
+          },
+          "Store": {
+            "floor_area_m2": 30066.383696,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1426085.5000039309
+          },
+          "Education": {
+            "floor_area_m2": 22156.622276,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 4686297.85409483
+          },
+          "Health": {
+            "floor_area_m2": 303667.205144,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 84397656.3136753
+          },
+          "Warehouse": {
+            "floor_area_m2": 36684.514707,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 3495923.805000354
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 489274.950142,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 104475181.15381674
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 205311619.1469,
+        "predicted_kWh": 18789055.298457954,
+        "error_kWh": -186522563.84844205,
+        "percent_error": -90.84851827844463,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1684961.922661,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -251342927.57822573
+          },
+          "Office": {
+            "floor_area_m2": 1194330.217107,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 167023612.17997718
+          },
+          "Store": {
+            "floor_area_m2": 30066.383696,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 8233102.985205844
+          },
+          "Education": {
+            "floor_area_m2": 22156.622276,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 34764437.30634146
+          },
+          "Health": {
+            "floor_area_m2": 303667.205144,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 4386014.135241536
+          },
+          "Warehouse": {
+            "floor_area_m2": 36684.514707,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -3430703.9520319835
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 489274.950142,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 59155520.24188105
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 714996381.1468999,
+        "predicted_kWh": 448050937.7815601
+      }
+    },
+    "98112": {
+      "electricity": {
+        "actual_kWh": 42858672.0,
+        "predicted_kWh": 41205570.331392504,
+        "error_kWh": -1653101.6686074957,
+        "percent_error": -3.8570996054369013,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 235882.389254,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 16172539.849339169
+          },
+          "Office": {
+            "floor_area_m2": 64441.329823,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 6218788.845995058
+          },
+          "Store": {
+            "floor_area_m2": 4156.387317,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 197142.5544590024
+          },
+          "Education": {
+            "floor_area_m2": 63003.470092,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 13325723.70529983
+          },
+          "Health": {
+            "floor_area_m2": 3165.576822,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 879802.8240520766
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 20660.140752,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 4411572.566921949
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 50238688.3,
+        "predicted_kWh": 76361953.12288041,
+        "error_kWh": 26123264.822880417,
+        "percent_error": 51.99830191999742,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 235882.389254,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -35186178.08621845
+          },
+          "Office": {
+            "floor_area_m2": 64441.329823,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 9011932.819375759
+          },
+          "Store": {
+            "floor_area_m2": 4156.387317,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 1138147.0140626521
+          },
+          "Education": {
+            "floor_area_m2": 63003.470092,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 98854426.4017986
+          },
+          "Health": {
+            "floor_area_m2": 3165.576822,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 45721.97607213139
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 20660.140752,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 2497903.01772111
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 93097360.3,
+        "predicted_kWh": 117567523.45427293
+      }
+    },
+    "98115": {
+      "electricity": {
+        "actual_kWh": 84775632.0,
+        "predicted_kWh": 101121442.29026045,
+        "error_kWh": 16345810.290260449,
+        "percent_error": 19.28126031577146,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 587408.8535569999,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 40273854.788606785
+          },
+          "Office": {
+            "floor_area_m2": 69324.311503,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 6690011.772185264
+          },
+          "Store": {
+            "floor_area_m2": 20427.047125,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 968879.9294055109
+          },
+          "Education": {
+            "floor_area_m2": 118550.359598,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 25074322.650165938
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 45271.6319,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 4314250.2201405335
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 111460.002638,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 23800122.94443099
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 44534710.8,
+        "predicted_kWh": 122917061.50992799,
+        "error_kWh": 78382350.70992799,
+        "percent_error": 176.00282858450268,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 587408.8535569999,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -87622787.76319253
+          },
+          "Office": {
+            "floor_area_m2": 69324.311503,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 9694803.625724273
+          },
+          "Store": {
+            "floor_area_m2": 20427.047125,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 5593555.39276751
+          },
+          "Education": {
+            "floor_area_m2": 118550.359598,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 186009243.31111285
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 45271.6319,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -4233763.693339273
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 111460.002638,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 13476010.6567866
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 129310342.8,
+        "predicted_kWh": 224038503.80018842
+      }
+    },
+    "98116": {
+      "electricity": {
+        "actual_kWh": 51107243.0,
+        "predicted_kWh": 54560990.40171294,
+        "error_kWh": 3453747.401712939,
+        "percent_error": 6.7578433094364705,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 429942.170483,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 29477643.104421716
+          },
+          "Office": {
+            "floor_area_m2": 10375.499943,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 1001268.0292969622
+          },
+          "Store": {
+            "floor_area_m2": 10674.275991,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 506294.01818717446
+          },
+          "Education": {
+            "floor_area_m2": 60654.51064,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 12828900.520694336
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 1923.0921,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 183264.88724996726
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 49471.219112,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 10563619.856537366
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 27875668.4,
+        "predicted_kWh": 41210461.06637934,
+        "error_kWh": 13334792.66637934,
+        "percent_error": 47.83667417416739,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 429942.170483,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -64133748.28546508
+          },
+          "Office": {
+            "floor_area_m2": 10375.499943,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 1450983.5335579992
+          },
+          "Store": {
+            "floor_area_m2": 10674.275991,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 2922945.919103166
+          },
+          "Education": {
+            "floor_area_m2": 60654.51064,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 95168835.13310389
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 1923.0921,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -179845.90283628763
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 49471.219112,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 5981290.688847048
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 78982911.4,
+        "predicted_kWh": 95771451.46809228
+      }
+    },
+    "98117": {
+      "electricity": {
+        "actual_kWh": 20619246.0,
+        "predicted_kWh": 28447860.06765902,
+        "error_kWh": 7828614.06765902,
+        "percent_error": 37.967508936354996,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 100062.10518,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 6860445.955928333
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 20610.437647,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 977578.3670662111
+          },
+          "Education": {
+            "floor_area_m2": 83896.704471,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 17744805.197764773
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 13417.422872,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 2865030.561574284
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 16823972.1,
+        "predicted_kWh": 123976472.45219892,
+        "error_kWh": 107152500.35219893,
+        "percent_error": 636.9036973866529,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 100062.10518,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -14926095.4312031
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 20610.437647,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 5643773.372734869
+          },
+          "Education": {
+            "floor_area_m2": 83896.704471,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 131636568.35681199
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 13417.422872,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 1622226.1737865745
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 37443218.1,
+        "predicted_kWh": 152424332.51985794
+      }
+    },
+    "98118": {
+      "electricity": {
+        "actual_kWh": 57001720.0,
+        "predicted_kWh": 66432987.52886896,
+        "error_kWh": 9431267.528868958,
+        "percent_error": 16.545584113723162,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 477079.759138,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 32709484.757949557
+          },
+          "Office": {
+            "floor_area_m2": 13397.634533,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 1292913.421020086
+          },
+          "Store": {
+            "floor_area_m2": 34552.297954,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1638857.9219312738
+          },
+          "Education": {
+            "floor_area_m2": 99066.649535,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 20953366.50799504
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 35178.557077,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 3352410.5768688573
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 30374.821656,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 6485954.35777873
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 36584566.0,
+        "predicted_kWh": 95991194.47115546,
+        "error_kWh": 59406628.471155465,
+        "percent_error": 162.38166791743674,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 477079.759138,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -71165182.86697492
+          },
+          "Office": {
+            "floor_area_m2": 13397.634533,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 1873620.27881137
+          },
+          "Store": {
+            "floor_area_m2": 34552.297954,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 9461484.637031527
+          },
+          "Education": {
+            "floor_area_m2": 99066.649535,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 155438689.34568325
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 35178.557077,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -3289868.1025162237
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 30374.821656,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 3672451.199051876
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 93586286.0,
+        "predicted_kWh": 162424182.00002444
+      }
+    },
+    "98119": {
+      "electricity": {
+        "actual_kWh": 142695353.0,
+        "predicted_kWh": 129309897.97496556,
+        "error_kWh": -13385455.025034443,
+        "percent_error": -9.380442140280799,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 501348.809828,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 34373416.47676481
+          },
+          "Office": {
+            "floor_area_m2": 298992.233281,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 28853680.86714127
+          },
+          "Store": {
+            "floor_area_m2": 27534.405334,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1305990.6570430768
+          },
+          "Education": {
+            "floor_area_m2": 99173.395082,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 20975944.02101164
+          },
+          "Health": {
+            "floor_area_m2": 30823.636049,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 8566755.308225337
+          },
+          "Warehouse": {
+            "floor_area_m2": 217070.460784,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 20686161.375671085
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 68130.507953,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 14547949.283782907
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 63172089.2,
+        "predicted_kWh": 118556026.6451309,
+        "error_kWh": 55383937.4451309,
+        "percent_error": 87.6715304915559,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 501348.809828,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -74785356.21803539
+          },
+          "Office": {
+            "floor_area_m2": 298992.233281,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 41813195.46391163
+          },
+          "Store": {
+            "floor_area_m2": 27534.405334,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 7539769.233417393
+          },
+          "Education": {
+            "floor_area_m2": 99173.395082,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 155606176.46669772
+          },
+          "Health": {
+            "floor_area_m2": 30823.636049,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 445200.86832012585
+          },
+          "Warehouse": {
+            "floor_area_m2": 217070.460784,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -20300240.949867897
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 68130.507953,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 8237281.800618721
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 205867442.2,
+        "predicted_kWh": 247865924.62009645
+      }
+    },
+    "98121": {
+      "electricity": {
+        "actual_kWh": 391651252.0,
+        "predicted_kWh": 256679418.97964287,
+        "error_kWh": -134971833.02035713,
+        "percent_error": -34.462249853948414,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 25687.400791,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 964747.2273477182
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1549461.132004,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 106233966.7729643
+          },
+          "Office": {
+            "floor_area_m2": 935265.091942,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 90255991.57858415
+          },
+          "Store": {
+            "floor_area_m2": 13011.622568,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 617157.2365790482
+          },
+          "Education": {
+            "floor_area_m2": 31838.880033,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 6734170.638322014
+          },
+          "Health": {
+            "floor_area_m2": 7343.517635,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 2040970.0718200505
+          },
+          "Warehouse": {
+            "floor_area_m2": 6557.651158,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 624924.4121461926
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 230447.006336,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 49207491.05655397
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 124344740.808537,
+        "predicted_kWh": -18265668.08205984,
+        "error_kWh": -142610408.89059684,
+        "percent_error": -114.68953810453861,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 25687.400791,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 1196671.111411487
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1549461.132004,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -231130503.21725893
+          },
+          "Office": {
+            "floor_area_m2": 935265.091942,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 130794106.82614951
+          },
+          "Store": {
+            "floor_area_m2": 13011.622568,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 3562983.4864784377
+          },
+          "Education": {
+            "floor_area_m2": 31838.880033,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 49956204.29068308
+          },
+          "Health": {
+            "floor_area_m2": 7343.517635,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 106066.02097263679
+          },
+          "Warehouse": {
+            "floor_area_m2": 6557.651158,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -613265.8404638743
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 230447.006336,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 27862069.25989921
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 515995992.808537,
+        "predicted_kWh": 238413750.89758304
+      }
+    },
+    "98122": {
+      "electricity": {
+        "actual_kWh": 196845858.0,
+        "predicted_kWh": 229155288.08319232,
+        "error_kWh": 32309430.08319232,
+        "percent_error": 16.413568673206385,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1058807.408439,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 72593825.50732276
+          },
+          "Office": {
+            "floor_area_m2": 156533.658245,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 15105985.09668512
+          },
+          "Store": {
+            "floor_area_m2": 7970.519982,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 378051.55048739695
+          },
+          "Education": {
+            "floor_area_m2": 259109.904411,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 54803759.06986853
+          },
+          "Health": {
+            "floor_area_m2": 224560.300644,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 62411622.83711419
+          },
+          "Warehouse": {
+            "floor_area_m2": 28286.362216,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 2695605.157042127
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 99126.014552,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 21166438.879346754
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 138828957.56488,
+        "predicted_kWh": 285267322.11029875,
+        "error_kWh": 146438364.54541874,
+        "percent_error": 105.48113816743351,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 1058807.408439,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -157940514.9751353
+          },
+          "Office": {
+            "floor_area_m2": 156533.658245,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 21890777.486276772
+          },
+          "Store": {
+            "floor_area_m2": 7970.519982,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 2182574.150617832
+          },
+          "Education": {
+            "floor_area_m2": 259109.904411,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 406551590.54210067
+          },
+          "Health": {
+            "floor_area_m2": 224560.300644,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 3243434.378669961
+          },
+          "Warehouse": {
+            "floor_area_m2": 28286.362216,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -2645316.025525129
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 99126.014552,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 11984776.573225327
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 335674815.56488,
+        "predicted_kWh": 514422610.1934911
+      }
+    },
+    "98125": {
+      "electricity": {
+        "actual_kWh": 88869805.0,
+        "predicted_kWh": 91003617.212417,
+        "error_kWh": 2133812.2124170065,
+        "percent_error": 2.4010542303057902,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 689635.877346,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 47282731.63242531
+          },
+          "Office": {
+            "floor_area_m2": 28540.359018,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 2754233.4524959708
+          },
+          "Store": {
+            "floor_area_m2": 35074.227008,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1663613.6578876132
+          },
+          "Education": {
+            "floor_area_m2": 72531.880481,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 15341056.575205438
+          },
+          "Health": {
+            "floor_area_m2": 4273.166388,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 1187633.1130803344
+          },
+          "Warehouse": {
+            "floor_area_m2": 15776.415848,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 1503444.932040601
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 99615.24175,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 21270903.86395631
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 35158915.9,
+        "predicted_kWh": 35158921.828093134,
+        "error_kWh": 5.928093135356903,
+        "percent_error": 1.6860853025780875e-05,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 689635.877346,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -102871820.45121823
+          },
+          "Office": {
+            "floor_area_m2": 28540.359018,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 3991286.3191609913
+          },
+          "Store": {
+            "floor_area_m2": 35074.227008,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 9604404.906259807
+          },
+          "Education": {
+            "floor_area_m2": 72531.880481,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 113804802.02634911
+          },
+          "Health": {
+            "floor_area_m2": 4273.166388,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 61719.434507652615
+          },
+          "Warehouse": {
+            "floor_area_m2": 15776.415848,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -1475396.7070554115
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 99615.24175,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 12043926.320020597
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 124028720.9,
+        "predicted_kWh": 126162539.04051015
+      }
+    },
+    "98126": {
+      "electricity": {
+        "actual_kWh": 31971869.0,
+        "predicted_kWh": 31642532.16180559,
+        "error_kWh": -329336.83819441125,
+        "percent_error": -1.030083159024614,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 254149.534532,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 17424969.655042067
+          },
+          "Office": {
+            "floor_area_m2": 10746.09001,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 1037031.1239045103
+          },
+          "Store": {
+            "floor_area_m2": 32317.423386,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 1532855.0767611589
+          },
+          "Education": {
+            "floor_area_m2": 22224.627272,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 4700681.4394108895
+          },
+          "Health": {
+            "floor_area_m2": 9756.765963,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 2711679.6497262763
+          },
+          "Warehouse": {
+            "floor_area_m2": 33870.761546,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 3227781.6001626845
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 4718.450467000001,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 1007533.631472583
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 26584476.0,
+        "predicted_kWh": 4856237.697001873,
+        "error_kWh": -21728238.302998126,
+        "percent_error": -81.7328064055057,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 254149.534532,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -37911057.33180898
+          },
+          "Office": {
+            "floor_area_m2": 10746.09001,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 1502809.4781265727
+          },
+          "Store": {
+            "floor_area_m2": 32317.423386,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 8849507.065554937
+          },
+          "Education": {
+            "floor_area_m2": 22224.627272,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 34871139.284220144
+          },
+          "Health": {
+            "floor_area_m2": 9756.765963,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 140921.7482265455
+          },
+          "Warehouse": {
+            "floor_area_m2": 33870.761546,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -3167564.200379682
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 4718.450467000001,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 570481.6729937292
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 58556345.0,
+        "predicted_kWh": 36498769.85880746
+      }
+    },
+    "98133": {
+      "electricity": {
+        "actual_kWh": 89797563.0,
+        "predicted_kWh": 75748138.2043266,
+        "error_kWh": -14049424.7956734,
+        "percent_error": -15.645663786748198,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 495712.384818,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 33986972.58678081
+          },
+          "Office": {
+            "floor_area_m2": 74657.77983,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 7204708.061562233
+          },
+          "Store": {
+            "floor_area_m2": 48301.384536,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 2290993.98229484
+          },
+          "Education": {
+            "floor_area_m2": 37144.663266,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 7856385.038575314
+          },
+          "Health": {
+            "floor_area_m2": 41452.761182,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 11520888.10456924
+          },
+          "Warehouse": {
+            "floor_area_m2": 33213.75153,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 3165170.5237070434
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 45534.54739,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 9723019.921511687
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 108666257.8,
+        "predicted_kWh": 11001577.92626292,
+        "error_kWh": -97664679.87373708,
+        "percent_error": -89.87581044107426,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 495712.384818,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -73944580.20758927
+          },
+          "Office": {
+            "floor_area_m2": 74657.77983,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 10440673.681311447
+          },
+          "Store": {
+            "floor_area_m2": 48301.384536,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 13226408.51103828
+          },
+          "Education": {
+            "floor_area_m2": 37144.663266,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 58281145.081160195
+          },
+          "Health": {
+            "floor_area_m2": 41452.761182,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 598722.5271916592
+          },
+          "Warehouse": {
+            "floor_area_m2": 33213.75153,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -3106121.1943478836
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 45534.54739,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 5505329.547429886
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 198463820.8,
+        "predicted_kWh": 86749716.13058951
+      }
+    },
+    "98134": {
+      "electricity": {
+        "actual_kWh": 175082419.0,
+        "predicted_kWh": 175082251.86574218,
+        "error_kWh": -167.13425782322884,
+        "percent_error": -9.546033164142473e-05,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 20299.584209,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 1391777.6379293713
+          },
+          "Office": {
+            "floor_area_m2": 480386.641423,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 46358805.68653516
+          },
+          "Store": {
+            "floor_area_m2": 44225.729926,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 2097680.6792680304
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 5344.245075,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 1485316.002042487
+          },
+          "Warehouse": {
+            "floor_area_m2": 552872.349113,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 52687070.33002656
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 332793.503383,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 71061601.54461515
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 64872251.0,
+        "predicted_kWh": 64872254.64978363,
+        "error_kWh": 3.649783633649349,
+        "percent_error": 5.6261091258408e-06,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 20299.584209,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -3028054.732330763
+          },
+          "Office": {
+            "floor_area_m2": 480386.641423,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 67180676.620433
+          },
+          "Store": {
+            "floor_area_m2": 44225.729926,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 12110368.601631979
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 5344.245075,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 77189.54844014082
+          },
+          "Warehouse": {
+            "floor_area_m2": 552872.349113,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -51704141.876224585
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 332793.503383,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 40236216.507765256
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 239954670.0,
+        "predicted_kWh": 239954506.51552582
+      }
+    },
+    "98136": {
+      "electricity": {
+        "actual_kWh": 7408551.0,
+        "predicted_kWh": 9669496.73405124,
+        "error_kWh": 2260945.7340512406,
+        "percent_error": 30.51805587963477,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 99119.325536,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 6795807.211976501
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 3131.388518,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 148525.60273128893
+          },
+          "Education": {
+            "floor_area_m2": 5399.336554,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 1142001.654916238
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 7414.216818000001,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 1583162.279101793
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 5834509.0,
+        "predicted_kWh": -4559851.14293341,
+        "error_kWh": -10394360.14293341,
+        "percent_error": -178.153125531787,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 99119.325536,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -14785462.58211777
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 3131.388518,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 857470.7359573472
+          },
+          "Education": {
+            "floor_area_m2": 5399.336554,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 8471728.893924966
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 7414.216818000001,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 896411.8292334473
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 13243060.0,
+        "predicted_kWh": 5109645.591117831
+      }
+    },
+    "98144": {
+      "electricity": {
+        "actual_kWh": 66862666.0,
+        "predicted_kWh": 76934764.11798577,
+        "error_kWh": 10072098.11798577,
+        "percent_error": 15.063859580450725,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 557864.956333,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 38248269.679557286
+          },
+          "Office": {
+            "floor_area_m2": 77328.183662,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 7462410.3406796465
+          },
+          "Store": {
+            "floor_area_m2": 53558.393694,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 2540340.382228167
+          },
+          "Education": {
+            "floor_area_m2": 67843.437683,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 14349414.476079471
+          },
+          "Health": {
+            "floor_area_m2": 10764.949319,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 2991882.15740407
+          },
+          "Warehouse": {
+            "floor_area_m2": 60280.854774,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 5744583.971557452
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 26215.740152,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 5597863.125154252
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 28853292.200000003,
+        "predicted_kWh": 46400444.9288917,
+        "error_kWh": 17547152.7288917,
+        "percent_error": 60.81507998207463,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 557864.956333,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -83215774.45299067
+          },
+          "Office": {
+            "floor_area_m2": 77328.183662,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 10814121.901586974
+          },
+          "Store": {
+            "floor_area_m2": 53558.393694,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 14665939.724023579
+          },
+          "Education": {
+            "floor_area_m2": 67843.437683,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 106448487.79735263
+          },
+          "Health": {
+            "floor_area_m2": 10764.949319,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 155483.4340965569
+          },
+          "Warehouse": {
+            "floor_area_m2": 60280.854774,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -5637413.179833232
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 26215.740152,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 3169599.724587262
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 95715958.2,
+        "predicted_kWh": 123335209.04687747
+      }
+    },
+    "98146": {
+      "electricity": {
+        "actual_kWh": 1480395.0,
+        "predicted_kWh": 3167533.7536799773,
+        "error_kWh": 1687138.7536799773,
+        "percent_error": 113.96544528183203,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 13293.583173,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 911433.0420586979
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 10666.750848,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 2256100.7262958596
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 0.0
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 786470.6000000001,
+        "predicted_kWh": 14753486.215777133,
+        "error_kWh": 13967015.615777133,
+        "percent_error": 1775.9107099206417,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 13293.583173,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -1982981.376475111
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 10666.750848,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 16736467.612183644
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 0.0
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 2266865.6,
+        "predicted_kWh": 17921019.96945711
+      }
+    },
+    "98155": {
+      "electricity": {
+        "actual_kWh": 3832207.0,
+        "predicted_kWh": 1657648.1660945208,
+        "error_kWh": -2174558.833905479,
+        "percent_error": -56.74429470812717,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 6751.353913,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 462885.51061525627
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 5432.96744,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 257692.31732408996
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 4388.459011,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 937070.3528297545
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 631209.9,
+        "predicted_kWh": 1011210.1589289277,
+        "error_kWh": 380000.2589289277,
+        "percent_error": 60.201885130275635,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 6751.353913,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -1007088.0740914717
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 5432.96744,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 1487714.016459552
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 4388.459011,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 530584.236492248
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 4463416.9,
+        "predicted_kWh": 2668858.3250234486
+      }
+    },
+    "98177": {
+      "electricity": {
+        "actual_kWh": 3609162.0,
+        "predicted_kWh": 1421376.4773451916,
+        "error_kWh": -2187785.522654808,
+        "percent_error": -60.6175484130335,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 16818.508799000003,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 1153108.5665975658
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 5655.93464,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 268267.9254222058
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 0.0
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 1715134.1,
+        "predicted_kWh": -960019.2944557217,
+        "error_kWh": -2675153.3944557216,
+        "percent_error": -155.97342472846418,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 16818.508799000003,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -2508788.585777015
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 5655.93464,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 1548769.3112526939
+          },
+          "Education": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 0.0
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 0.0
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 5324296.1,
+        "predicted_kWh": 461357.1828894699
+      }
+    },
+    "98178": {
+      "electricity": {
+        "actual_kWh": 651233.0,
+        "predicted_kWh": 3967340.503824768,
+        "error_kWh": 3316107.503824768,
+        "percent_error": 509.2044635061135,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 0.0
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 3848.785484,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 814048.0498274184
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 27286.261421,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 2600298.5622959486
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 2589.764028,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 552993.9063759814
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 750666.0,
+        "predicted_kWh": 3800192.0067800805,
+        "error_kWh": 3049526.0067800805,
+        "percent_error": 406.24272403173717,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -0.0
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 3848.785484,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 6038865.491199344
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 27286.261421,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -2551787.4678423926
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 2589.764028,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 313114.00335452944
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 1401899.0,
+        "predicted_kWh": 7767532.510604849
+      }
+    },
+    "98195": {
+      "electricity": {
+        "actual_kWh": 49448491.0,
+        "predicted_kWh": 49448482.511531495,
+        "error_kWh": -8.488468505442142,
+        "percent_error": -1.7166284215714777e-05,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 0.0
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 25648.846046,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 5424930.329546522
+          },
+          "Health": {
+            "floor_area_m2": 150065.379773,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 41707389.31343261
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 10846.982668,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 2316162.8832269367
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 43722760.742328,
+        "predicted_kWh": 43722762.499117255,
+        "error_kWh": 1.7567892521619797,
+        "percent_error": 4.018019956505702e-06,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -0.0
+          },
+          "Office": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 0.0
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 25648.846046,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 40243846.252324454
+          },
+          "Health": {
+            "floor_area_m2": 150065.379773,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 2167467.7599204434
+          },
+          "Warehouse": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -0.0
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 10846.982668,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 1311448.5068037538
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 93171251.742328,
+        "predicted_kWh": 93171245.01064876
+      }
+    },
+    "98199": {
+      "electricity": {
+        "actual_kWh": 16115974.0,
+        "predicted_kWh": 22933523.983940292,
+        "error_kWh": 6817549.983940292,
+        "percent_error": 42.30305896460426,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 37.5572147293989,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 155628.875928,
+            "energy_intensity_kWh_m2": 68.56187908086878,
+            "energy_consumption_kWh": 10670208.172867065
+          },
+          "Office": {
+            "floor_area_m2": 20030.444218,
+            "energy_intensity_kWh_m2": 96.50311163776584,
+            "energy_consumption_kWh": 1933000.1945236954
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 47.43122799279834,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 25156.088534,
+            "energy_intensity_kWh_m2": 211.50777387088544,
+            "energy_consumption_kWh": 5320708.285125246
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 277.92812290564484,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 20266.975256,
+            "energy_intensity_kWh_m2": 95.29698928614353,
+            "energy_consumption_kWh": 1931381.7238335682
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 14415.851413,
+            "energy_intensity_kWh_m2": 213.53061529819868,
+            "energy_consumption_kWh": 3078225.622265297
+          }
+        }
+      },
+      "fuel": {
+        "actual_kWh": 5113816.9,
+        "predicted_kWh": 18904587.467549775,
+        "error_kWh": 13790770.567549774,
+        "percent_error": 269.67665908315513,
+        "contributions_by_building_type": {
+          "Residential_1-4": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 46.58591661912171,
+            "energy_consumption_kWh": 0.0
+          },
+          "Residential_Multi": {
+            "floor_area_m2": 155628.875928,
+            "energy_intensity_kWh_m2": -149.16831306270046,
+            "energy_consumption_kWh": -23214896.886024073
+          },
+          "Office": {
+            "floor_area_m2": 20030.444218,
+            "energy_intensity_kWh_m2": 139.8470957090534,
+            "energy_consumption_kWh": 2801199.4496495016
+          },
+          "Store": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 273.8308360742821,
+            "energy_consumption_kWh": 0.0
+          },
+          "Education": {
+            "floor_area_m2": 25156.088534,
+            "energy_intensity_kWh_m2": 1569.031455845967,
+            "energy_consumption_kWh": 39470694.215892054
+          },
+          "Health": {
+            "floor_area_m2": 0.0,
+            "energy_intensity_kWh_m2": 14.443489652304319,
+            "energy_consumption_kWh": 0.0
+          },
+          "Warehouse": {
+            "floor_area_m2": 20266.975256,
+            "energy_intensity_kWh_m2": -93.51913142188438,
+            "energy_consumption_kWh": -1895349.922489943
+          },
+          "Other_Commercial": {
+            "floor_area_m2": 14415.851413,
+            "energy_intensity_kWh_m2": 120.90445305796386,
+            "energy_consumption_kWh": 1742940.6304536406
+          }
+        }
+      },
+      "total": {
+        "actual_kWh": 21229790.9,
+        "predicted_kWh": 41838111.45149007
+      }
+    }
+  }
+}
